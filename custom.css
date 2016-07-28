@@ -1,0 +1,18 @@
+div {
+    background-color: aqua;
+    margin-top: 10%;
+    border-radius: 100px;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    transition-property: background-color;
+    transition-duration: 2s;
+    transition-timing-function: ease;
+    transition-property: border-radius;
+    transition-duration: 2s;
+}
+
+div:hover {
+    background-color: green;
+    border-radius: 50%;
+}
